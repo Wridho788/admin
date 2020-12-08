@@ -11,8 +11,8 @@ include "conf/conn.php";
   <title>Dashboard | Dashboard</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+   <!-- Bootstrap 3.3.6 -->
+   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
@@ -47,14 +47,14 @@ include "conf/conn.php";
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="index.php" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>D</b>SB</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>Dashboard</b></span>
     </a>
-    <!-- Header Navbar: style can be found in header.less -->
-    <nav class="navbar navbar-static-top">
+   <!-- Header Navbar: style can be found in header.less -->
+   <nav class="navbar navbar-static-top">
       <!-- Sidebar toggle button-->
       <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
         <span class="sr-only">Toggle navigation</span>
@@ -113,30 +113,22 @@ include "conf/conn.php";
         </div>
       </div>
      
-      <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu">
+       <!-- sidebar menu: : style can be found in sidebar.less -->
+       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
         <li>
-          <a href="index.html">
+          <a href="index.php">
             <i class="fa fa fa-dashboard"></i> <span>Dashboard</span>
             <span class="pull-right-container">
               <i class="label pull-right bg-green"></i>
             </span>
           </a>
         </li>        
-        
         <li class="treeview">
-          <a href="#">
+          <a href="pages/charts/chartjs.php">
             <i class="fa fa-pie-chart"></i>
             <span>Charts</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
           </a>
-          <ul class="treeview-menu">
-            <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-           
-          </ul>
         </li>
       </ul>
     </section>
